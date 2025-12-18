@@ -1,0 +1,19 @@
+// Placeholder for Android build configuration
+// This would typically apply the com.android.application or com.android.library plugin
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // classpath "com.android.tools.build:gradle:7.0.0"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
